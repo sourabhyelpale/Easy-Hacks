@@ -4,11 +4,15 @@ app_publisher = "sourabh"
 app_description = "daily use problem solutions"
 app_email = "sourabh.yelpale@erpdata.in"
 app_license = "mit"
+# app_include_js = [
+#     "/assets/easy_hacks/js/bulk_listview.js"
+# ]
 
 # Apps
 # ------------------
 
 # required_apps = []
+app_include_js = "easy_hacks.bundle.js"
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
